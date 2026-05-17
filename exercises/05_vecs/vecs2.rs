@@ -1,4 +1,5 @@
 fn vec_loop(input: &[i32]) -> Vec<i32> {
+    // &[T] means a slice of `T` elements, where the slice is borrowed
     let mut output = Vec::new();
 
     for element in input {
